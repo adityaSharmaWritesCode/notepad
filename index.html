@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>2019UCO1678 - Notepad</title>
+<link rel="stylesheet" href="Note.css">
+</head>
+<body>
+<h1>Welcome to your personal notepad!</h1>
+<form>
+<textarea id='noteHeading' rows="1" cols="70" placeholder="Enter heading..."
+maxlength="70"></textarea>
+<br/>
+<textarea id='noteText' rows="20" cols="70" placeholder="Enter your note here..."></textarea>
+<br/>
+<input type="button" id='SaveButton' value="Add Note"/>
+<input id='ClearButton' type='reset' onclick='alert("The Note has been Deleted")' value='Clear
+Note'/>
+</form>
+<br/>
+<hr/>
+<h3 id="archiveHeader">Saved Notes </h3>
+<p id="viewHead">Note Heading</p>
+<div class="tooltip" id="viewDetails">[ View Details ]
+<span class="tooltiptext" id="viewBody">Tooltip text</span>
+</div>
+<script type="text/javascript" src="Note.js"></script>
+</body>
+</html>
