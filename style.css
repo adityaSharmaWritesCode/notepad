@@ -1,0 +1,84 @@
+*{
+background-color: burlywood;
+text-align: center;
+}
+h1{
+font-size: 40px;
+font-family: 'Baskerville Old Face';
+font-weight: bold;
+text-decoration: underline;
+color: white;
+}
+h3{
+font-size: 25px;
+font-family: 'Baskerville Old Face';
+font-weight: bold;
+display: none;
+text-decoration: underline;
+color: white;
+}
+textarea{
+background-color: wheat;
+border-width: 5px;
+border-color: whitesmoke;
+text-align: left;
+}
+hr{
+height: 2px;
+background: brown;
+}
+#SaveButton{
+border-width: 3px;
+background-color: #ebb79c;
+font-family: 'Baskerville Old Face';
+font-weight: bold;
+font-size: 15px;
+}
+#ClearButton{
+border-width: 3px;
+background-color: #ebb79c;
+font-family: 'Baskerville Old Face';
+font-weight: bold;
+
+font-size: 15px;
+}
+#viewHead{
+display: none;
+font-family: 'Baskerville Old Face';
+font-weight: bold;
+font-size: 20px;
+}
+.tooltip {
+position: relative;
+display: inline-block;
+display: none;
+}
+.tooltip .tooltiptext {
+visibility: hidden;
+width:500px;
+background-color: wheat;
+color: black;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 1;
+top: 150%;
+right:30%;
+margin-left: -60px;
+font-family: 'Baskerville Old Face';
+}
+.tooltip .tooltiptext::after {
+content: "";
+position: absolute;
+bottom: 100%;
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: transparent transparent
+wheat transparent;
+}
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
